@@ -1,4 +1,4 @@
-e
+
 
 local function IsVisible(part)
     local vec, found=workspace.CurrentCamera:WorldToViewportPoint(part.Position)
