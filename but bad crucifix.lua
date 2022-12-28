@@ -86,8 +86,8 @@ end
 
 -- Scripts
 
-local CrucifixTool = game:GetObjects("rbxassetid://11922804180")[1]
-CrucifixTool.Name = "Big Crucifix"
+local CrucifixTool = game:GetObjects("rbxassetid://11952646597")[1]
+CrucifixTool.Name = "shitty crucifix"
 CrucifixTool.Parent = game.Players.LocalPlayer.Backpack
 
 -- game.UserInputService.InputBegan:Connect(function(input, proc)
@@ -316,7 +316,7 @@ for _, thing in pairs(workspace:GetChildren()) do
     func(thing)
 end
 dupeCrucifix.Event:Connect(function(time, entityRoot)
-    local Cross = game:GetObjects("rbxassetid://11922804180")[1]
+    local Cross = game:GetObjects("rbxassetid://11952646597")[1]
     Cross.Parent = workspace
 
     local fakeCross = Cross.Handle
